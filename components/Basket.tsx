@@ -58,11 +58,13 @@ function Basket() {
         <p className="font-bold text-2xl text-right text-walmart mb-5">
           Total: {basketTotal}
         </p>
-
+        <a href="/cart" >
         <Button className="mt-5 h-20 bg-wallmart hover:bg-wallmart/50" >
           Checkout
         </Button>
 
+        </a>
+     
      
       </div>
     </div>
